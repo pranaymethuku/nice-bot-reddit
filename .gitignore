@@ -1,6 +1,5 @@
 # User-defined ignore files
 praw.ini
-reply.log
 .vscode
 
 # Byte-compiled / optimized / DLL files
