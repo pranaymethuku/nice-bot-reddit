@@ -1,1 +1,1 @@
-# nice-bot-reddit
+# reddit-bot
