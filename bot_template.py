@@ -22,3 +22,10 @@ for submission in subreddit.hot(limit=10):
             # comment.reply("Comment reply")
             print("Submission ID: {}, Comment: '{}'".format(submission.id, comment.body))
 
+# For replying to posts
+for submission in subreddit.hot(limit=100):
+    # # Do a case insensitive search
+    if re.search(r"whateverregex", submission.title , re.IGNORECASE):
+        # Reply to the post
+        # submission.reply("Submission reply")
+        print("Submission ID: {}, Title: '{}'".format(submission.id, submission.title))
